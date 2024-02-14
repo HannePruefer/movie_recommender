@@ -11,7 +11,7 @@ st.write("We have tons of popular movies from 1995 to 2018. Yes, we are absolute
 st.divider()
 
 st.markdown(" ### the 5 most popular movies of all times:")
-popular_movies = pickle.load(open('../data/best_movies.sav', "rb"))
+popular_movies = pickle.load(open('best_movies.sav', "rb"))
 
 popular_movies_lst = (popular_movies.drop(["movieId","num_ratings","avg_rate"], axis = 1)
                                     .reset_index(drop=True)
