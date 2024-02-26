@@ -1,4 +1,4 @@
-# movie recommender  
+# movie recommender  WIP 
 
 This is a project within the Data Science Bootcamp of WBS coding school. Creating a recommender system for movie titles and publish them via Streamlit. 
 
